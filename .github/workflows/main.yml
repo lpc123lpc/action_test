@@ -1,9 +1,6 @@
 name:Github Actions test
 
-on: 
-    push:
-        branches:    
-            - master
+on: [push]
 jobs:
     mvn_build:
         name: build
